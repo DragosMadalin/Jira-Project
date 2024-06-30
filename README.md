@@ -141,16 +141,15 @@ Adjusting the test plan, schedule, and resources as needed based on ongoing prog
 
 
 <h3> 1.3 Test Analysis </h3>
-The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
+The testing process will be executed based on the application requirements.
 
 The following test conditions were found: <br>
+![titlu teste](https://github.com/DragosMadalin/Jira-Project/assets/166251306/8034cc8c-ff31-41db-b45f-43ad812096f8)
 
-**(aici puteti fie sa puneti o poza din jira cu titlurile tuturor testelor - din issues filtrare dupa type test sau sa scrieti cu bulinuta numele fiecarei conditii de testare pe care ati identificat-o)**
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here **(inserati linkul catre fisierul cu testele, in format pdf, word sau csv)**
-
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here https://github.com/DragosMadalin/Jira-Project/blob/main/ZFJ-issue-export-06-30-2024-6d62336ffffe8bb-0001.pdf
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
@@ -161,7 +160,7 @@ The following elements are needed to be ready before the test execution phase be
 
 Test cases are executed on the created test Cycle summary: **(inserati aici numele cycle-ului pe care l-ati creat)**
 
-Bugs have been created based on the failed tests. The complete bug reports can be found here: **(inserati aici fisierul cu bug-urile pe care le-ati identificat)**
+Bugs have been created based on the failed tests. The complete bug reports can be found here: 
 
 The following is a summary of the bugs that have been found
 **(inserati o lista cu titlurile bug-urilor identificate impreuna cu prioritatea si severitatea fiecaruia)**
