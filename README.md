@@ -31,41 +31,76 @@ The plan identifies the items to be tested, the features to be tested, the types
 ](https://github.com/DragosMadalin/Jira-Project/blob/main/Test%20Plan.pdf)
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
-**(numele persoanelor pot sa fie fictive, doar sa treceti numele vostru ca si tester)**
+
 <ul>
-  <li>Project manager</li> 
-  <li>Product owner</li>
-  <li>Software developer</li>
-  <li>QA Engineer</li>
+  <li>Project manager Dobrin George</li> 
+  <li>Product owner Porc Inc.</li>
+  <li>Software developer Catalin Dumitrescu</li>
+  <li>QA Engineer Dobre Dragos Madalin</li>
 </ul>
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-**(enumerati aici toate criteriile de intrare pe care le-ati definit pentru proiectul vostru)**
+New Account
+Customer Id - Customer ID is required
+Customer Id - Special character are not allowed
+Customer Id - Characters are not allowed
+Customer Id - First character cannot have space
+New Customer
+Customer Name – Numbers are not allowed
+Customer Name – Special characters are not allowed
+Customer Name -  Customer name must not be blank
+Email : Email ID must not be blank
+Email : Email ID is not valid
+Password:
+New Password must not be blank
+Enter at-least one special character
+Confirm Password must not be blank
+Passwords do not Match
+
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-**(enumerati aici toate criteriile de iesire pe care le-ati definit pentru proiectul vostru)**
+All critical defects identified during testing are addressed and verified. 
+Performance benchmarks meet predefined thresholds for response time and resource utilization. 
+ Security vulnerabilities identified during testing are mitigated or documented with a resolution plan. 
+Identified usability issues are addressed or prioritized for future improvements. 
+Test documentation, including test cases, test results and any deviations are reviewed and finalized. 
+
 
 <h4> 1.1.4 Test scope</h4>
 
 <h5> Tests in scope: </h5>
 
-**(descrieti aici toate testele pe care intentionati sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+Verify that  an user can add items in wish list
+Verify that an client can change the size and color of the item
+Verify that an client can remove an item from wish list
+Verify that the user can add a item from his wish list to shopping cart
+Verify that the user can add all of the item from wish list to his sopping cart
+Verify that a new user can create a new account using only mandatory fields
+Verify that a new user can create a new account using  all fields
+Verify that the mandatory field is correctly displayed for invalid data
 
 <h5>Tests not in scope: </h5>
 
-**(descrieti aici toate testele pe care NU intentionati sau nu puteti sa le faceti. Puteti include functionalitati din aplicatie, tipuri sau tehnici de testare, dispozitive pe care veti testa etc)**
+Database testing
+Automatic testing
+Load testing
 
 <h4>1.1.5 Risks detected</h4>
 
 <h5>Project risks:</h5>
 
-**(enumerati aici toate riscurile de proiect pe care le-ati identificat pentru proiectul vostru)**
+Exeding the availabe time frame
+Not executing all of the test cases
+
 
 <h5> Product risks: </h5>
 
-**(enumerati aici toate riscurile de produs pe care le-ati identificat pentru proiectul vostru)**
+Porc is an online platform, it is vulnerable to network issues.
+Data breaches
+Unauthorized access to user accounts
+
 
 <h4>1.1.6 Evaluating entry criteria</h4>
 
@@ -73,7 +108,37 @@ The entry criteria defined in the Test Planning phase have been achieved and the
 
 <h3>1.2 Test Monitoring and Control<h3>
 
-**(inserati aici motivul pentru care a fost facuta etapa de monitorizare si control si respectiv cum s-a facut aceasta etapa. Aici veti insera de asemenea si raportul de status (test status report) din zephyr - test metrics - primul din lista care sa reflecte activitatea si evolutia testarii. Recomand aici sa executati teste aproape in fiecare zi ca sa vada angajatorul implicarea voastra in testare)**
+Test Monitoring and Control
+
+Objective: Ensure the testing process is effectively tracked and controlled to meet the project objectives and quality standards.
+
+Activities:
+
+Progress Tracking:
+
+Daily/weekly status meetings to review testing progress against the schedule.
+Regular updates on test case execution, defect status, and risk assessment.
+Risk Management:
+
+Continuous monitoring of identified risks.
+Regular updates to the risk log and implementation of mitigation strategies.
+Defect Management:
+
+Tracking defects from identification to resolution.
+Prioritizing defects based on severity and impact on the project timeline.
+Test Reporting:
+
+Daily test execution reports.
+Detailed test summary reports at the end of each testing phase.
+Final test report highlighting overall test results, major defects, and readiness for production.
+Review and Adjustments:
+
+Regular review of test documentation and progress.
+Adjusting the test plan, schedule, and resources as needed based on ongoing progress and findings.
+
+![test metrics 1](https://github.com/DragosMadalin/Jira-Project/assets/166251306/96438bb4-408a-4c12-8286-a2d17f100b75)
+![test metric 2](https://github.com/DragosMadalin/Jira-Project/assets/166251306/28a94a37-faaf-4e0d-9fe7-c6dd21332aa5)
+
 
 <h3> 1.3 Test Analysis </h3>
 The testing process will be executed based on the application requirements. <b>(The requirements analysis has been done in order to implement the <i>early testing</i> test principle and the results can be found here - inserati linkul catre documentul de review. Parte asta specificata intre paranteze o puneti doar daca aveti cerinte si daca ati facut review)</b>. <br><br>
@@ -114,6 +179,6 @@ Test execution chart was generated and can be found below.
 
 The final report shows that a number **(inserati numarul de teste)** tests have failed of a total of **(inserati numarul de teste)**
 
-A number of **(inserati numarul de bug-uri)** total bugs were found, from which the priority is: **(inserati numarul de bug-uri)** are high and **(inserati numarul de bug-uri)** are medium.
+A number of 1 total bugs were found, from which the priority is:0 are high and 1 are medium.
 
 **(inserati aici o concluzie generala a testarii care sa cuprinda cate teste au fost create si executate, ce procentaj aproximativ din cerintele in scop au fost acoperite, daca exista vreo functionalitate pe care nu ai apucat sa o testezi, daca bug-urile gasite impacteaza lansarea produsului in productie sau se pot fixa si ulterior, daca ai identificat riscuri de produs care trebuie mitigate, daca e vreo reecomandare pe care vrei sa o faci pentru lansare, daca sunt ceva lessons learned de care trebuie sa se tina cont la proiectele viitoare etc.)**
