@@ -1,21 +1,22 @@
-<h1>Testing Project for **Porc**</h1>
+<h1>Testing Project for **Porc** application </h1>
 
 The scope of the final project for ITF Manual Testing Course is to use all gained knowledge throught the course and apply them in practice, using a live application
 
-Application under test: **www.porcporc.com**
+**Application under test:** www.porcporc.com
 
-Tools used: Jira, Zephyr Squad, 
-Windows Snipping Tool, Microsoft Power Point
+**Tools used**: Jira, Zephyr Squad, Windows Snipping Tool, Microsoft Power Point
+
 <h2>Functional specifications:</h2>
 
-The below stories created in Jira describes the functional specifications of the "CLIENT NOU" and "Lista Mea de dorinte" module, for which the final project is performed upon.
+The below stories created in Jira describe the functional specifications of the "CLIENT NOU" and "Lista Mea de dorinte" module, for which the final project is performed upon.
 
 ![story1](https://github.com/DragosMadalin/Jira-Project/assets/166251306/80f6375d-f887-4e47-8939-a4e6c4c96273)
 
 ![Story2](https://github.com/DragosMadalin/Jira-Project/assets/166251306/ed430aa6-c763-4a47-8621-7e7b584a8c83)
+<br>
 
+Here you can find the release that was created for this project:<br>
 
-Here you can find the release that was created for this project:
 ![release](https://github.com/DragosMadalin/Jira-Project/assets/166251306/5dd18e05-d4cd-4345-8ae1-4bf21d074838)
 
 
@@ -27,8 +28,8 @@ The test process was performed based on the standard test process as described b
 
 The Test Plan is designed to describe all details of testing for all the modules from the JPetStore Demo application.
 
-The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found here https://github.com/DragosMadalin/Jira-Project/blob/main/Test%20Plan.pdf
-](https://github.com/DragosMadalin/Jira-Project/blob/main/Test%20Plan.pdf)
+The plan identifies the items to be tested, the features to be tested, the types of testing to be performed, the personnel responsible for testing, the resources and schedule required to complete testing, and the risks associated with the plan. The test plan that was created for this project can be found [here](https://github.com/DragosMadalin/Jira-Project/blob/main/Test%20Plan.pdf)
+
 <h4>1.1.1. Roles asigned to the project and persons allocated</h4>
 
 
@@ -41,31 +42,21 @@ The plan identifies the items to be tested, the features to be tested, the types
 
 <h4> 1.1.2 Entry criteria defined </h4>
 
-New Account
-Customer Id - Customer ID is required
-Customer Id - Special character are not allowed
-Customer Id - Characters are not allowed
-Customer Id - First character cannot have space
-New Customer
-Customer Name – Numbers are not allowed
-Customer Name – Special characters are not allowed
-Customer Name -  Customer name must not be blank
-Email : Email ID must not be blank
-Email : Email ID is not valid
-Password:
-New Password must not be blank
-Enter at-least one special character
-Confirm Password must not be blank
-Passwords do not Match
+- business requirements must be defined
+- roles must have been allocated
+- test plan must be finished
+- entry and exit criteria must be defined
+- entry criteria must be fulfilled
+- projects risks must be identified and mitigated
 
 
 <h4> 1.1.3 Exit criteria defined </h4>
 
-All critical defects identified during testing are addressed and verified. 
-Performance benchmarks meet predefined thresholds for response time and resource utilization. 
- Security vulnerabilities identified during testing are mitigated or documented with a resolution plan. 
-Identified usability issues are addressed or prioritized for future improvements. 
-Test documentation, including test cases, test results and any deviations are reviewed and finalized. 
+- All critical defects identified during testing are addressed and verified. 
+- Performance benchmarks meet predefined thresholds for response time and resource utilization. 
+- Security vulnerabilities identified during testing are mitigated or documented with a resolution plan. 
+- Identified usability issues are addressed or prioritized for future improvements. 
+- Test documentation, including test cases, test results and any deviations are reviewed and finalized. 
 
 
 <h4> 1.1.4 Test scope</h4>
