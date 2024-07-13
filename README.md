@@ -140,7 +140,7 @@ The following test conditions were found: <br>
 
 <h3>1.4 Test Design</h3>
 
-Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed here https://github.com/DragosMadalin/Jira-Project/blob/main/ZFJ-issue-export-06-30-2024-6d62336ffffe8bb-0001.pdf
+Functional test cases were created in Zephyr Squad based on the analysis of the specifications. The test cases can be accessed [here](https://github.com/DragosMadalin/Jira-Project/blob/main/ZFJ-issue-export-06-30-2024-6d62336ffffe8bb-0001.pdf)
 <h3>1.5 Test Implementation</h3>
 
 The following elements are needed to be ready before the test execution phase begins:
