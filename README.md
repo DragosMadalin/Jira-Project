@@ -97,7 +97,7 @@ Unauthorized access to user accounts
 
 The entry criteria defined in the Test Planning phase have been achieved and the test process can continue.
 
-<h3>1.2 Test Monitoring and Control<h3>
+<h3>1.2 Test Monitoring and Control</h3>
 
 Test Monitoring and Control
 
